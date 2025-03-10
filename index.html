@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Audio Control Panel</h1>
+    <label for="frequency">Frequency:</label>
+    <input type="range" id="frequency" min="20" max="20000" value="440" />
+    <span id="freqValue">440 Hz</span>
+    <label for="gain">Gain:</label>
+    <input type="range" id="gain" min="0" max="1" step="0.01" value="0.5" />
+    <span id="gainValue">0.5</span>
+  </body>
 </html>
